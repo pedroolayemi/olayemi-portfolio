@@ -1,0 +1,28 @@
+label{
+    color: #fff;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 4rem 1rem;
+    margin: auto;
+    max-width: 600px;
+}
+
+input,textarea{
+    background: rgb(24, 24, 24);
+    border: none;
+    height: 2rem;
+    color: #fff;
+    padding: 1.2rem;
+    outline: none;
+}
+
+textarea{
+    height: 10rem;
+    resize: none;
+    margin-bottom: 1rem;
+}
